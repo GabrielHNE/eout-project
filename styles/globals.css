@@ -19,11 +19,10 @@ main {
   align-items: center;
 }
 
-code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
+.title {
+  font-size: 128px;
+  color: #f4f4f4;
+  /* text-shadow: 0px 2px 1px #474441; */
 }
 
 .container {
@@ -32,4 +31,6 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  background-color: #5B7F87;
 }
